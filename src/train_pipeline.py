@@ -1,7 +1,7 @@
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multioutput import MultiOutputClassifier
-from ..src.data_prep import load_data, split_data
-from ..src.utils import save_model
+from src.data_prep import load_data, split_data
+from src.utils import save_model
 import os
 
 def train_all():

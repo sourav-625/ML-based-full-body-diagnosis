@@ -24,7 +24,7 @@ For each system with abnormal status (=1), a specific submodel predicts diseases
 
 3. Train models:
    ```bash
-   python src/train_pipeline.py
+   python main.py
    ```
 
 4. Run full pipeline (train + predict demo):

@@ -1,5 +1,5 @@
-from ..src.utils import load_model
-from ..src.data_prep import load_data, split_data
+from src.utils import load_model
+from src.data_prep import load_data, split_data
 
 def predict_pipeline(X):
     main_model = load_model('main_status_model.pkl')
