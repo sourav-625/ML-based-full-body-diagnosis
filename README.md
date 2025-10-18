@@ -34,4 +34,8 @@ For each system with abnormal status (=1), a specific submodel predicts diseases
 
 ---
 
-Models are saved in `models/`. The project uses 24 input bio-signals and 9 system labels.
+The project uses 24 input bio-signals and 9 body-part based labels along with more than 30 disease based labels. All models are being trained on the same training data while focusing on different features.
+
+Addition of a new model is simple - add the required feature columns to the training data and add the model to the second level of ML-pipeline. The model architecture of all models is the same in the secod stage of the ML-pipeline
+
+Models are being tested and fine-tuned.
