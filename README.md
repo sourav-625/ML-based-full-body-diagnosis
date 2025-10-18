@@ -1,4 +1,4 @@
-# full_body_diagnosis_ml
+# ML-based Full body Diagnosis
 
 This project implements a **two-stage diagnostic ML pipeline** using synthetic data.
 
