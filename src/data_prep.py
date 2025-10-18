@@ -1,5 +1,5 @@
 import pandas as pd
-def load_data(path='data/diagnosis_data.csv'): return pd.read_csv(path)
+def load_data(path='../data/diagnosis_data.csv'): return pd.read_csv(path)
 def split_data(df):
     X = df.iloc[:,1:25]
     Y_status = df[[c for c in df.columns if c.endswith('_Status')]]
